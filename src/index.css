@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.magic-move-debug-style .shiki-magic-move-move {
+  background: #8883;
+}
+.magic-move-debug-style .shiki-magic-move-enter-active {
+  background: rgba(92, 183, 47, 0.3);
+}
+.magic-move-debug-style .shiki-magic-move-leave-active {
+  background: rgba(183, 47, 47, 0.533);
+}
+.from-teal {
+  --tw-gradient-from-position: 0%;
+  --tw-gradient-from: rgb(45 212 191 / 1) var(--tw-gradient-from-position);
+  --tw-gradient-to-position: 100%;
+  --tw-gradient-to: rgb(45 212 191 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
+}
+
+.to-orange {
+  --tw-gradient-to-position: 100%;
+  --tw-gradient-to: rgb(251 146 60 / 1) var(--tw-gradient-to-position)
+}
